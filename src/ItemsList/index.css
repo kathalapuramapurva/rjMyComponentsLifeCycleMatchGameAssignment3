@@ -1,0 +1,14 @@
+.style-each-list-item {
+  list-style-type: none;
+  margin: 2px;
+}
+.style-each-image {
+  width: 60px;
+  height: 60px;
+}
+.style-image-button {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+  margin: 0px;
+}

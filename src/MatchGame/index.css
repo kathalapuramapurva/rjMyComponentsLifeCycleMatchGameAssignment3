@@ -1,0 +1,128 @@
+.main-container {
+  min-height: 100vh;
+}
+.nav-container {
+  height: 10vh;
+  background-color: #2c0e3a;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.style-logo {
+  width: 80px;
+}
+.style-list-item {
+  list-style-type: none;
+}
+.score-timer-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+  margin-right: 13px;
+}
+.score-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.style-seconds {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+.style-timer {
+  width: 18px;
+  height: 18px;
+}
+.bottom-container {
+  min-height: 90vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  padding: 20px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.style-image {
+  width: 100%;
+  border-radius: 5px;
+}
+.tabs-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.score-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+.trophy-image {
+  width: 80%;
+}
+.style-your-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.style-final-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.play-again-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #cf60c8;
+  border: none;
+  border-radius: 10px;
+}
+.reset {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.play-again {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px;
+}

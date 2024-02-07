@@ -1,0 +1,18 @@
+.each-tab {
+  list-style-type: none;
+}
+.style-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  background-color: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 5px;
+  border: none;
+}
+.active-button {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
